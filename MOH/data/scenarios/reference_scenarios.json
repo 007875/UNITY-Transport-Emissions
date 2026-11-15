@@ -1,0 +1,16 @@
+{
+  "_note": "Reference benchmark scenarios. Road trips get a seeded synthetic 1 Hz trajectory (see src/unity/trajectory.py). Rail alternatives carry the same shipment over distance x route_factor. All vehicle/rail numbers are placeholder assumptions (src/unity/params.py).",
+  "n_monte_carlo": 3000,
+  "seed": 42,
+  "route_factor_rail": 1.15,
+  "scenarios": [
+    {"id": "S1", "name": "Rigid 30t, motorway, 80 km/h",   "vehicle_class": "rigid_truck",       "load_factor": 0.60, "distance_km": 100, "road_type": "motorway", "avg_speed_kmh": 80, "traj_seed": 1},
+    {"id": "S2", "name": "Rigid 30t, rural, 55 km/h",      "vehicle_class": "rigid_truck",       "load_factor": 0.60, "distance_km": 100, "road_type": "rural",    "avg_speed_kmh": 55, "traj_seed": 2},
+    {"id": "S3", "name": "Rigid 30t, urban, 18 km/h",      "vehicle_class": "rigid_truck",       "load_factor": 0.60, "distance_km": 100, "road_type": "urban",    "avg_speed_kmh": 18, "traj_seed": 3},
+    {"id": "S4", "name": "Articulated 40t, motorway, 75 km/h", "vehicle_class": "articulated_truck", "load_factor": 0.80, "distance_km": 400, "road_type": "motorway", "avg_speed_kmh": 75, "traj_seed": 4}
+  ],
+  "rail_alternatives": [
+    {"traction": "electric", "label": "Rail (electric)"},
+    {"traction": "diesel",   "label": "Rail (diesel)"}
+  ]
+}

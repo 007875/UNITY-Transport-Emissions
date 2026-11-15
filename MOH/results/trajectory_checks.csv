@@ -1,0 +1,5 @@
+scenario,target_speed,realised_speed,max_speed,stops_per_100km,max_acc,max_dec
+S1,80,80.11,90.0,0.0,0.5,0.81
+S2,55,54.91,77.1,10.0,0.5,0.97
+S3,18,17.99,30.7,175.6,0.5,0.99
+S4,75,75.03,84.4,0.0,0.5,0.8
