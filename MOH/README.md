@@ -111,4 +111,4 @@ docs/           architecture diagram;  REVIEW_FIXES.md  what changed from v1 and
 4. Embed the uncertainty in planning and optimisation problems (mode choice, routing, fleet) with
    operations-research solvers; study robust decisions under emission-estimate uncertainty.
 
-*Author: Mohsen Ebadollahi Kalkhoran - MIT licence.*
+*Author: Mohsen Ebadollahi Kalkhoran.*
