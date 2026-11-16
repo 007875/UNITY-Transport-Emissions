@@ -7,7 +7,7 @@ Assessing Their Accuracy"* (Kühne Logistics University / Kuehne Climate Center)
 (low / medium / high), returns an *uncertainty interval* instead of a single number, and shows when the
 **level of data changes a decision**.
 
-![architecture](docs/architecture.png)
+![architecture](https://raw.githubusercontent.com/007875/UNITY-Transport-Emissions/master/MOH/docs/architecture.png)
 
 ## 1. What it does (three project parts -> prototype)
 
